@@ -1,7 +1,6 @@
-let button= document.getElementById('no');
-let height = wildow.inneheight-50;
-let whidth= WritableStreamDefaultController.innerwidth- 50
-
-button.addEventListener('mouseover', fuction () {
-     button.style.position=
-})
+function salvar() {
+    let nome = document.getElementById("nome").value;
+    let idade = document.getElementById("idade").value;
+    console.log("Nome:", nome);
+    console.log("Idade:", idade);
+}
